@@ -16,7 +16,7 @@ Wolf::~Wolf(){
 
 }
 
-void Wolf::WolfRun(bool dead, bool hasEaten, int x, int y){
+void Wolf::run(bool dead, bool hasEaten, int x, int y){
 	alive = dead;
 	nextPosition(x,y);
 	lifeLength++;
