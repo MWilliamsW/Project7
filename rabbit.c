@@ -11,7 +11,7 @@ Rabbit::Rabbit(){
 	LastEaten = 0;
 }
 
-void Rabbit::RabbitRun(bool dead, bool hasEaten, int x, int y){
+void Rabbit::run(bool dead, bool hasEaten, int x, int y){
 	alive = dead;
 	nextPosition(x.y);
 	lifeLength++;
