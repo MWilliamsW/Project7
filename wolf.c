@@ -25,7 +25,7 @@ void Wolf::WolfRun(bool dead, bool hasEaten, int x, int y){
 			dead = true;
 			return;
 		}
-		if(noEaten >= 20 || (lifeLength > 800 && rand()%100 == 1)){
+		if(LastEaten >= 20 || (lifeLength > 800 && rand()%100 == 1)){
 
 		  dead = true;
 		}
